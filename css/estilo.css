@@ -1,0 +1,88 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+body{
+  font-family: 'Fredoka One', cursive;
+}
+
+.contenedorPrincipal{
+  min-height: 100vh;
+}
+
+nav{
+  width: 100%;
+  background-color: #ffffff;
+  color:rgb(0, 102, 255);
+  height: 50px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.29);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+main{
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.contenedorSecundario{
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.infoColor{
+  padding: 10px;
+  background-color: rgb(45, 45, 45);
+  width: auto;
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.infoColor h2{
+  color: white;
+  font-size: 3rem;
+}
+
+.infoColor .codigoColor{
+  font-size: 3rem;
+  color: rgb(0, 163, 255);
+}
+
+.botonCambiarColor{
+  width: 15rem;
+  padding: auto;
+  font-size: 2rem;
+  background-color: rgba(86, 226, 210, 0);
+  border-radius: 15px;
+  border: 3px solid black;
+  transition: width 0.2s ease-in, padding 0.2s ease-in, background-color 0.1s, box-shadow 0.1s ease-out;
+}
+
+.botonCambiarColor:hover{
+  width: 16rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.botonCambiarColor:active{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 40px 5px white;
+}
