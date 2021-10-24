@@ -1,4 +1,4 @@
-# ColorAleatorioAutomatico
+# ColorAleatorioAutomatico: https://afcoral124.github.io/ColorAleatorioAutomatico/
 Utilizando conocimientos de JavaScript para generar códigos hexadecimales automáticamente para cambiar el color del fondo de manera aleatoria + diseño agradable y animación de botón
 ![Captura de pantalla (317)](https://user-images.githubusercontent.com/80283644/138575380-e4da6cfa-7c41-42c6-8766-d6b8b545aee8.png)
 
